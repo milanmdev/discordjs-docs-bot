@@ -4,7 +4,7 @@ const util = require("util");
 
 module.exports = async (client) => {
 
-    client.user.setActivity(client.config.prefix + 'help', { type: 'WATCHING' });
+    client.user.setActivity(client.config.prefix + 'docs', { type: 'WATCHING' });
     
      console.log(chalk.blue(`Running as ${client.user.tag}`));
 
