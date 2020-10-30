@@ -1,0 +1,24 @@
+{
+  "name": "Discord.js-DocsHelper",
+  "version": "0.0.1",
+  "description": "A discord.js documentation bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "chalk": "4.1.0",
+    "discord.js": "^12.3.1",
+    "fs": "^0.0.2",
+    "klaw": "^3.0.0",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0",
+    "path": "0.12.7",
+    "querystring": "^0.2.0",
+    "superagent": "^6.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
